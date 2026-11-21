@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Título Unidad 3 */
+.banner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    color: #111;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    gap: 20px; /* Separación entre las dos cajas azules */
+}
+
+/* Cajas azules de Ejercicio 1 y 2 */
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;              /* Ancho de la caja */
+    height: 180px;             /* Alto de la caja (cuadrada) */
+    background-color: #007bff; /* Color azul */
+    color: white;              /* Texto en blanco */
+    text-decoration: none;     /* Quita el subrayado del enlace */
+    font-size: 1.2rem;
+    border-radius: 4px;        /* Bordes ligeramente suaves */
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse por encima */
+.button:hover {
+    background-color: #0056b3;
+}
